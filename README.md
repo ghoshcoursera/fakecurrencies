@@ -1,2 +1,2 @@
-# fakecurrencies
-Currencies whose Google Trends similarity with search term "Fake currency" is above 0.1. 
+# Fake Currencies
+This repo is intended to contain files on currencies whose Google Trends similarity with the search term "Fake currency" is above 0.1. Each file is an OpenDocument Spreadsheet with Google Trends time series data on a specific currency simultaneously with the search term "Fake currency". Similarity is calculated using cosine similarity and correlation is calculated using the CORREL function. If the cosine similarity is greater than 0.1, the file is to be pushed to the repo.
